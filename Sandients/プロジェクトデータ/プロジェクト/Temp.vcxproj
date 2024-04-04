@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5a26a16e-5b9d-4d19-b5fb-c7818b9861f2}</ProjectGuid>
+    <RootNamespace>Temp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Sandients</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ExtendLib\ExtendLibFade\ExtendLibFade.cpp" />
+    <ClCompile Include="ExtendLib\ExtendLibGraphics\ExtendLibGraphics.cpp" />
+    <ClCompile Include="ExtendLib\ExtendLibInput\ExtendLibInput.cpp" />
+    <ClCompile Include="ExtendLib\ExtendLibMath\ExtendLibMath.cpp" />
+    <ClCompile Include="ExtendLib\ExtendLibTime\ExtendLibTime.cpp" />
+    <ClCompile Include="ExtendLib\GameSystemObject\GameSystemObjects.cpp" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Game\GameDatas\ChangeSceneDirection.cpp" />
+    <ClCompile Include="Game\GameDatas\FontHandle.cpp" />
+    <ClCompile Include="Game\GameDatas\Sound.cpp" />
+    <ClCompile Include="Game\GameDatas\TextureManager.cpp" />
+    <ClCompile Include="Game\GameObject\CharaSelectScene\BreadSelect.cpp" />
+    <ClCompile Include="Game\GameObject\CharaSelectScene\Ingredients.cpp" />
+    <ClCompile Include="Game\GameObject\CharaSelectScene\IngredientsSelect.cpp" />
+    <ClCompile Include="Game\GameObject\PlayerScore.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Attack.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\AttackManager.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Attacks\Attack0.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Player.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillFruitWhip.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillMeatChicken.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillMeatSalmon.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillMeatTuna.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillVegeLettuce.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillVegeTomato.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillMeatBacon.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillFruitBanana.cpp" />
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillVegeOnion.cpp" />
+    <ClCompile Include="Game\GameScene\CharaSelectScene.cpp" />
+    <ClCompile Include="Game\GameScene\LogoScene.cpp" />
+    <ClCompile Include="Game\GameScene\BaseScene.cpp" />
+    <ClCompile Include="Game\GameScene\ModeSelectScene.cpp" />
+    <ClCompile Include="Game\GameScene\PlayScene.cpp" />
+    <ClCompile Include="Game\GameScene\ResultScene.cpp" />
+    <ClCompile Include="Game\GameScene\TitleScene.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExtendLib\ExtendLibFade\ExtendLibFade.h" />
+    <ClInclude Include="ExtendLib\ExtendLibGraphics\ExtendLibGraphics.h" />
+    <ClInclude Include="ExtendLib\ExtendLibInput\ExtendLibInput.h" />
+    <ClInclude Include="ExtendLib\ExtendLibMath\ExtendLibMath.h" />
+    <ClInclude Include="ExtendLib\ExtendLibTime\ExtendLibTime.h" />
+    <ClInclude Include="ExtendLib\GameSystemObject\GameSystemObjects.h" />
+    <ClInclude Include="ExtendLib\MemoryLeakDetector.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\GameDatas\ChangeSceneDirection.h" />
+    <ClInclude Include="Game\GameDatas\ControllerInput.h" />
+    <ClInclude Include="Game\GameDatas\FontHandle.h" />
+    <ClInclude Include="Game\GameDatas\HitJudge.h" />
+    <ClInclude Include="Game\GameDatas\Sound.h" />
+    <ClInclude Include="Game\GameDatas\TextureManager.h" />
+    <ClInclude Include="Game\GameDatas\Vector.h" />
+    <ClInclude Include="Game\GameObject\CharaSelectScene\BaseStatus.h" />
+    <ClInclude Include="Game\GameObject\CharaSelectScene\BreadSelect.h" />
+    <ClInclude Include="Game\GameObject\CharaSelectScene\Ingredients.h" />
+    <ClInclude Include="Game\GameObject\CharaSelectScene\IngredientsSelect.h" />
+    <ClInclude Include="Game\GameObject\PlayerScore.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Attack.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\AttackManager.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Attacks\Attacks.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Attacks\Attack0.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Player.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillFruitBanana.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillFruitWhip.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillMeatChicken.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillMeatSalmon.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillMeatTuna.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\Skills.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillVegeLettuce.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillVegeTomato.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillMeatBacon.h" />
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillVegeOnion.h" />
+    <ClInclude Include="Game\GameScene\CharaSelectScene.h" />
+    <ClInclude Include="Game\GameScene\LogoScene.h" />
+    <ClInclude Include="Game\GameScene\BaseScene.h" />
+    <ClInclude Include="Game\GameScene\ModeSelectScene.h" />
+    <ClInclude Include="Game\GameScene\PlayScene.h" />
+    <ClInclude Include="Game\GameScene\ResultScene.h" />
+    <ClInclude Include="Game\GameScene\Scenes.h" />
+    <ClInclude Include="Game\GameScene\TitleScene.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

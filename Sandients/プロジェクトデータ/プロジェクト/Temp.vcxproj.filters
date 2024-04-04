@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{cee235a9-ac58-4b1c-b2b8-6b10850ce609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib">
+      <UniqueIdentifier>{3edebb5a-924c-44f7-a675-1cdf4ac65704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibInput">
+      <UniqueIdentifier>{200ddd2d-db2c-40be-aebc-cbfcb442069e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibFade">
+      <UniqueIdentifier>{b6e50c11-5cad-47f1-8a6a-610d58a4485d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibGraphics">
+      <UniqueIdentifier>{6966772f-c606-4c33-ac89-b3ce55289b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibMath">
+      <UniqueIdentifier>{dcec2ffb-b625-4c21-a366-65ed0bb95e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\GameSystemObject">
+      <UniqueIdentifier>{4af21d5b-c126-4561-8f96-9c12290ad79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendLib\ExtendLibTime">
+      <UniqueIdentifier>{57e1969a-6783-4cc3-b865-17de5187354f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameScene">
+      <UniqueIdentifier>{65b0094b-c6b2-4fa6-8437-b6dd8f994c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameDatas">
+      <UniqueIdentifier>{fa1411c4-5049-4846-83fe-ddf4794f065b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject">
+      <UniqueIdentifier>{1a56ee85-7af5-4f95-a9db-2130538af0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\PlayScene">
+      <UniqueIdentifier>{c5e65331-4d9a-40ab-8c85-d901a9896857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\PlayScene\Skills">
+      <UniqueIdentifier>{20b66114-5c95-46e6-84ed-d801131022e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\PlayScene\Attacks">
+      <UniqueIdentifier>{645af1f0-1f78-4db8-bd35-68c33d1dea88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObject\CharaSelectScene">
+      <UniqueIdentifier>{133a82e9-be0c-4e16-9f76-7e9d01259863}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibInput\ExtendLibInput.cpp">
+      <Filter>ExtendLib\ExtendLibInput</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibFade\ExtendLibFade.cpp">
+      <Filter>ExtendLib\ExtendLibFade</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibGraphics\ExtendLibGraphics.cpp">
+      <Filter>ExtendLib\ExtendLibGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibMath\ExtendLibMath.cpp">
+      <Filter>ExtendLib\ExtendLibMath</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\GameSystemObject\GameSystemObjects.cpp">
+      <Filter>ExtendLib\GameSystemObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendLib\ExtendLibTime\ExtendLibTime.cpp">
+      <Filter>ExtendLib\ExtendLibTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameScene\LogoScene.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameDatas\FontHandle.cpp">
+      <Filter>Game\GameDatas</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameScene\TitleScene.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameScene\BaseScene.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameDatas\ChangeSceneDirection.cpp">
+      <Filter>Game\GameDatas</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameScene\ModeSelectScene.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameScene\ResultScene.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameScene\CharaSelectScene.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameScene\PlayScene.cpp">
+      <Filter>Game\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillVegeLettuce.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillVegeTomato.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillMeatBacon.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Attacks\Attack0.cpp">
+      <Filter>Game\GameObject\PlayScene\Attacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillFruitBanana.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameDatas\Sound.cpp">
+      <Filter>Game\GameDatas</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameDatas\TextureManager.cpp">
+      <Filter>Game\GameDatas</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillVegeOnion.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Attack.cpp">
+      <Filter>Game\GameObject\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\AttackManager.cpp">
+      <Filter>Game\GameObject\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Player.cpp">
+      <Filter>Game\GameObject\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayerScore.cpp">
+      <Filter>Game\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillMeatTuna.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillMeatChicken.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillMeatSalmon.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\PlayScene\Skills\SkillFruitWhip.cpp">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\CharaSelectScene\BreadSelect.cpp">
+      <Filter>Game\GameObject\CharaSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\CharaSelectScene\Ingredients.cpp">
+      <Filter>Game\GameObject\CharaSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject\CharaSelectScene\IngredientsSelect.cpp">
+      <Filter>Game\GameObject\CharaSelectScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\MemoryLeakDetector.h">
+      <Filter>ExtendLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibInput\ExtendLibInput.h">
+      <Filter>ExtendLib\ExtendLibInput</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibFade\ExtendLibFade.h">
+      <Filter>ExtendLib\ExtendLibFade</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibGraphics\ExtendLibGraphics.h">
+      <Filter>ExtendLib\ExtendLibGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibMath\ExtendLibMath.h">
+      <Filter>ExtendLib\ExtendLibMath</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\GameSystemObject\GameSystemObjects.h">
+      <Filter>ExtendLib\GameSystemObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtendLib\ExtendLibTime\ExtendLibTime.h">
+      <Filter>ExtendLib\ExtendLibTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene\LogoScene.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameDatas\FontHandle.h">
+      <Filter>Game\GameDatas</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameDatas\Vector.h">
+      <Filter>Game\GameDatas</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene\TitleScene.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene\BaseScene.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene\Scenes.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameDatas\ChangeSceneDirection.h">
+      <Filter>Game\GameDatas</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene\ModeSelectScene.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene\ResultScene.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene\CharaSelectScene.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameScene\PlayScene.h">
+      <Filter>Game\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameDatas\ControllerInput.h">
+      <Filter>Game\GameDatas</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameDatas\HitJudge.h">
+      <Filter>Game\GameDatas</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillVegeLettuce.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillVegeTomato.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillMeatBacon.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Attacks\Attack0.h">
+      <Filter>Game\GameObject\PlayScene\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\Skills.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Attacks\Attacks.h">
+      <Filter>Game\GameObject\PlayScene\Attacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillFruitBanana.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameDatas\Sound.h">
+      <Filter>Game\GameDatas</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameDatas\TextureManager.h">
+      <Filter>Game\GameDatas</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillVegeOnion.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Attack.h">
+      <Filter>Game\GameObject\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\AttackManager.h">
+      <Filter>Game\GameObject\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Player.h">
+      <Filter>Game\GameObject\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayerScore.h">
+      <Filter>Game\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillMeatTuna.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillMeatChicken.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillMeatSalmon.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\PlayScene\Skills\SkillFruitWhip.h">
+      <Filter>Game\GameObject\PlayScene\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\CharaSelectScene\BaseStatus.h">
+      <Filter>Game\GameObject\CharaSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\CharaSelectScene\BreadSelect.h">
+      <Filter>Game\GameObject\CharaSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\CharaSelectScene\Ingredients.h">
+      <Filter>Game\GameObject\CharaSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject\CharaSelectScene\IngredientsSelect.h">
+      <Filter>Game\GameObject\CharaSelectScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
